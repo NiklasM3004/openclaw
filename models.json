@@ -1,0 +1,28 @@
+{
+  "providers": {
+    "vllm": {
+      "baseUrl": "http://host.docker.internal:11434/v1",
+      "apiKey": "VLLM_API_KEY",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "llama3.2-vision",
+          "name": "llama3.2-vision",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        }
+      ]
+    }
+  }
+}
