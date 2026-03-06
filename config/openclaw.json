@@ -70,7 +70,7 @@
   "channels": {
     "discord": {
       "enabled": true,
-      "token": "token_here",
+      "token": "${DISCORD_BOT_TOKEN}",
       "groupPolicy": "open",
       "streaming": "off",
       "guilds": {}
@@ -88,7 +88,7 @@
     },
     "auth": {
       "mode": "token",
-      "token": "token_here"
+      "token": "${DISCORD_TOKEN}"
     },
     "tailscale": {
       "mode": "off",

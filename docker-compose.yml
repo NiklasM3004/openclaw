@@ -5,6 +5,8 @@ services:
     ports:
       - "18789:18789"
     container_name: openclaw-sandbox
+    env_file:
+      - .env
     volumes:
       - .:/workspace              # Hier arbeitet der Agent
       - ./config:/root/.openclaw  # Hier liegen deine Einstellungen
