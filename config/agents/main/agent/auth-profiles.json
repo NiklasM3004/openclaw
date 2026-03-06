@@ -5,6 +5,11 @@
       "type": "api_key",
       "provider": "vllm",
       "key": "ollama"
+    },
+    "openrouter:default": {
+      "type": "api_key",
+      "provider": "openrouter",
+      "key": "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"
     }
   }
 }

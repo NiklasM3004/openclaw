@@ -1,1 +1,31 @@
-{}
+{
+  "43ec5aa18514d7dcbed3e75b3f579f3127e06fe0a06d3aaa179ae38df8063346": {
+    "deviceId": "43ec5aa18514d7dcbed3e75b3f579f3127e06fe0a06d3aaa179ae38df8063346",
+    "publicKey": "x6V2tXvzsMUziW5TCcYrdI9n078wikS64TOLzLrqvOw",
+    "platform": "linux",
+    "clientId": "openclaw-probe",
+    "clientMode": "probe",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read"
+    ],
+    "approvedScopes": [
+      "operator.read"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "SrORyGvUOs0h-TRQJxF_xZNr7QJR76Kt9BP0pVJNwoA",
+        "role": "operator",
+        "scopes": [
+          "operator.read"
+        ],
+        "createdAtMs": 1772824979487
+      }
+    },
+    "createdAtMs": 1772824979487,
+    "approvedAtMs": 1772824979487
+  }
+}
