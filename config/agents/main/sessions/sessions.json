@@ -15,7 +15,7 @@
       "accountId": "default"
     },
     "sessionId": "7ac62a08-af9b-4d61-9dd9-dffe53d2f55f",
-    "updatedAt": 1772826825510,
+    "updatedAt": 1772835997821,
     "deliveryContext": {
       "channel": "discord",
       "to": "channel:1352447595837919296",
@@ -85,15 +85,15 @@
     "authProfileOverrideSource": "auto",
     "authProfileOverrideCompactionCount": 0,
     "modelProvider": "openrouter",
-    "model": "meta-llama/llama-3.2-3b-instruct:free",
-    "contextTokens": 200000,
+    "model": "arcee-ai/trinity-large-preview:free",
+    "contextTokens": 131000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1772826825025,
+      "generatedAt": 1772835525404,
       "sessionId": "7ac62a08-af9b-4d61-9dd9-dffe53d2f55f",
       "sessionKey": "agent:main:discord:channel:1352447595837919296",
       "provider": "openrouter",
-      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "model": "arcee-ai/trinity-large-preview:free",
       "workspaceDir": "/root/.openclaw/workspace",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
@@ -102,9 +102,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 22829,
+        "chars": 22825,
         "projectContextChars": 13547,
-        "nonProjectContextChars": 9282
+        "nonProjectContextChars": 9278
       },
       "injectedWorkspaceFiles": [
         {

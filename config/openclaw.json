@@ -1,12 +1,15 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.2",
-    "lastTouchedAt": "2026-03-06T19:23:48.448Z"
+    "lastTouchedAt": "2026-03-06T22:22:39.057Z"
+  },
+  "env": {
+    "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}"
   },
   "wizard": {
-    "lastRunAt": "2026-03-06T14:13:01.083Z",
+    "lastRunAt": "2026-03-06T22:22:39.009Z",
     "lastRunVersion": "2026.3.2",
-    "lastRunCommand": "onboard",
+    "lastRunCommand": "configure",
     "lastRunMode": "local"
   },
   "auth": {
@@ -17,27 +20,19 @@
       }
     }
   },
-  "models": {
-    "mode": "merge",
-    "providers": {
-      "openrouter": {
-        "baseUrl": "https://openrouter.ai/api/v1",
-        "apiKey": "${OPENROUTER_API_KEY}",
-        "api": "openai-completions",
-        "models": []
-      }
-    }
-  },
-  "env": { "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}" },
   "agents": {
     "defaults": {
       "model": {
-        "primary": "openrouter/meta-llama/llama-3.2-3b-instruct:free"
+        "primary": "openrouter/auto",
+        "fallbacks": [
+          "openrouter/auto"
+        ]
       },
       "models": {
         "openrouter/auto": {
           "alias": "OpenRouter"
-        }
+        },
+        "openrouter/openrouter/auto": {}
       },
       "workspace": "/root/.openclaw/workspace",
       "compaction": {
@@ -67,7 +62,7 @@
   "channels": {
     "discord": {
       "enabled": true,
-      "token": "${DISCORD_BOT_TOKEN}",
+      "token": "${DISCORD_TOKEN}",
       "groupPolicy": "open",
       "streaming": "off",
       "guilds": {}
@@ -85,7 +80,7 @@
     },
     "auth": {
       "mode": "token",
-      "token": "${DISCORD_TOKEN}"
+      "token": "${DISCORD_BOT_TOKEN}"
     },
     "tailscale": {
       "mode": "off",
