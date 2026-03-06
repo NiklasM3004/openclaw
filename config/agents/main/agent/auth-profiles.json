@@ -11,5 +11,11 @@
       "provider": "openrouter",
       "key": "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"
     }
+  },
+  "usageStats": {
+    "openrouter:default": {
+      "errorCount": 0,
+      "lastUsed": 1772826825504
+    }
   }
 }

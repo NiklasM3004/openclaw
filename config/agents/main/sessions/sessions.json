@@ -15,7 +15,7 @@
       "accountId": "default"
     },
     "sessionId": "7ac62a08-af9b-4d61-9dd9-dffe53d2f55f",
-    "updatedAt": 1772823996163,
+    "updatedAt": 1772826825510,
     "deliveryContext": {
       "channel": "discord",
       "to": "channel:1352447595837919296",
@@ -80,6 +80,148 @@
         }
       ],
       "version": 0
-    }
+    },
+    "authProfileOverride": "openrouter:default",
+    "authProfileOverrideSource": "auto",
+    "authProfileOverrideCompactionCount": 0,
+    "modelProvider": "openrouter",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "contextTokens": 200000,
+    "systemPromptReport": {
+      "source": "run",
+      "generatedAt": 1772826825025,
+      "sessionId": "7ac62a08-af9b-4d61-9dd9-dffe53d2f55f",
+      "sessionKey": "agent:main:discord:channel:1352447595837919296",
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "workspaceDir": "/root/.openclaw/workspace",
+      "bootstrapMaxChars": 20000,
+      "bootstrapTotalMaxChars": 150000,
+      "sandbox": {
+        "mode": "off",
+        "sandboxed": false
+      },
+      "systemPrompt": {
+        "chars": 22829,
+        "projectContextChars": 13547,
+        "nonProjectContextChars": 9282
+      },
+      "injectedWorkspaceFiles": [
+        {
+          "name": "AGENTS.md",
+          "path": "/root/.openclaw/workspace/AGENTS.md",
+          "missing": false,
+          "rawChars": 7804,
+          "injectedChars": 7804,
+          "truncated": false
+        },
+        {
+          "name": "SOUL.md",
+          "path": "/root/.openclaw/workspace/SOUL.md",
+          "missing": false,
+          "rawChars": 1664,
+          "injectedChars": 1664,
+          "truncated": false
+        },
+        {
+          "name": "TOOLS.md",
+          "path": "/root/.openclaw/workspace/TOOLS.md",
+          "missing": false,
+          "rawChars": 850,
+          "injectedChars": 850,
+          "truncated": false
+        },
+        {
+          "name": "IDENTITY.md",
+          "path": "/root/.openclaw/workspace/IDENTITY.md",
+          "missing": false,
+          "rawChars": 633,
+          "injectedChars": 633,
+          "truncated": false
+        },
+        {
+          "name": "USER.md",
+          "path": "/root/.openclaw/workspace/USER.md",
+          "missing": false,
+          "rawChars": 474,
+          "injectedChars": 474,
+          "truncated": false
+        },
+        {
+          "name": "HEARTBEAT.md",
+          "path": "/root/.openclaw/workspace/HEARTBEAT.md",
+          "missing": false,
+          "rawChars": 167,
+          "injectedChars": 167,
+          "truncated": false
+        },
+        {
+          "name": "BOOTSTRAP.md",
+          "path": "/root/.openclaw/workspace/BOOTSTRAP.md",
+          "missing": false,
+          "rawChars": 1449,
+          "injectedChars": 1449,
+          "truncated": false
+        }
+      ],
+      "skills": {
+        "promptChars": 1784,
+        "entries": [
+          {
+            "name": "discord",
+            "blockChars": 212
+          },
+          {
+            "name": "healthcheck",
+            "blockChars": 488
+          },
+          {
+            "name": "skill-creator",
+            "blockChars": 293
+          },
+          {
+            "name": "weather",
+            "blockChars": 413
+          }
+        ]
+      },
+      "tools": {
+        "listChars": 429,
+        "schemaChars": 8979,
+        "entries": [
+          {
+            "name": "message",
+            "summaryChars": 478,
+            "schemaChars": 8244,
+            "propertiesCount": 87
+          },
+          {
+            "name": "sessions_list",
+            "summaryChars": 54,
+            "schemaChars": 212,
+            "propertiesCount": 4
+          },
+          {
+            "name": "sessions_history",
+            "summaryChars": 36,
+            "schemaChars": 161,
+            "propertiesCount": 3
+          },
+          {
+            "name": "sessions_send",
+            "summaryChars": 84,
+            "schemaChars": 273,
+            "propertiesCount": 5
+          },
+          {
+            "name": "session_status",
+            "summaryChars": 207,
+            "schemaChars": 89,
+            "propertiesCount": 2
+          }
+        ]
+      }
+    },
+    "totalTokensFresh": false
   }
 }

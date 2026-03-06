@@ -11,8 +11,6 @@ services:
       - .:/workspace              # Hier arbeitet der Agent
       - ./config:/root/.openclaw  # Hier liegen deine Einstellungen
     environment:
-      - OLLAMA_HOST=http://host.docker.internal:11434
       - OPENCLAW_GATEWAY_HOST=0.0.0.0
       - OPENCLAW_GATEWAY_PORT=18789
-      - OPENCLAW_AGENT_MODEL=llama3.2-vision:latest
     restart: no
