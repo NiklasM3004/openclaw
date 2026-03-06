@@ -1,3 +1,7 @@
+For Free Model via OpenRouter, welches in unter 10 Sekunden antwortet:
+
+openrouter/meta-llama/llama-3.2-3b-instruct:free
+
 update all "token_here" inside openclaw.json, openclaw.json.bak and openclaw.json.bak.1
 
 
@@ -21,3 +25,4 @@ pairing with web dashboard must be done when initially starting the webpage with
 
 
 the config file openclaw.json must not be edited manually but can be updated by CLI commands listed on the docs of openclaw
+
