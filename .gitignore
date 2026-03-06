@@ -1,0 +1,8 @@
+# Ignoriere die Umweltvariablen
+.env
+
+# Ignoriere die JSON-Dateien mit echten Keys
+
+# Ignoriere lokale Logs und Datenbanken
+logs/
+config/agents/main/sessions.json

@@ -66,7 +66,7 @@
   "channels": {
     "discord": {
       "enabled": true,
-      "token": "token_here",
+      "token": "discord_bot-token",
       "groupPolicy": "allowlist",
       "guilds": {},
       "streaming": "off"
@@ -78,7 +78,7 @@
     "bind": "lan",
     "auth": {
       "mode": "token",
-      "token": "toke_here"
+      "token": "discord_token"
     },
     "tailscale": {
       "mode": "off",
