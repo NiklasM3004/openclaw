@@ -70,7 +70,7 @@
   "channels": {
     "discord": {
       "enabled": true,
-      "token": "+token_here",
+      "token": "token_here",
       "groupPolicy": "open",
       "streaming": "off",
       "guilds": {}
